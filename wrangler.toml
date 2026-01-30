@@ -9,7 +9,7 @@ ENVIRONMENT = "production"
 [[d1_databases]]
 binding = "DB"
 database_name = "feedback_150"
-database_id = "" # Add your database ID here
+database_id = "598b9835-eba6-4d56-8b3b-19f966fda1e8"
 
 # Optional: KV namespace for caching
 # [[kv_namespaces]]
