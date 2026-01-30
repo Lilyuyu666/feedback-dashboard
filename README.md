@@ -2,7 +2,7 @@
 
 A complete Cloudflare D1 feedback dashboard with real-time data visualization and AI assistant.
 
-## � Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js 16+
@@ -12,7 +12,7 @@ A complete Cloudflare D1 feedback dashboard with real-time data visualization an
 ### Installation
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Lilyuyu666/feedback-dashboard.git
 cd feedback-dashboard
 
 # Install dependencies
@@ -35,19 +35,14 @@ npm run deploy
 
 ```
 feedback-dashboard/
-├── worker.js              # Main entry point
-├── api-handler.js         # API request handling
-├── database-queries.js    # D1 database operations
-├── dashboard-html.js      # HTML generation
-├── page-templates.js      # Page HTML templates
-├── dashboard-scripts.js   # Frontend JavaScript
+├── worker.js              # Single-file Worker with all functionality
 ├── wrangler.toml          # Cloudflare configuration
 ├── package.json           # Node.js dependencies
 ├── .gitignore            # Git ignore file
 └── README.md             # This file
 ```
 
-## � Configuration
+## 🔧 Configuration
 
 ### 1. D1 Database Setup
 ```bash
@@ -105,7 +100,7 @@ npm run deploy
 - `GET /api/feedback` - Raw feedback data
 - `GET /api/analysis` - Analysis data
 
-## �️ Development
+## 🛠️ Development
 
 ```bash
 # Start development server
@@ -138,13 +133,13 @@ CREATE TABLE feedback_150 (
 - **Canvas API**: Chart rendering
 - **JavaScript ES6**: Modern frontend
 
-## � Deployment
+## 🚀 Deployment
 
 The project is ready for GitHub deployment with:
 - ✅ `wrangler.toml` configuration
 - ✅ `package.json` with scripts
 - ✅ `.gitignore` for clean commits
-- ✅ Modular file structure
+- ✅ Single-file architecture for easy deployment
 - ✅ Complete documentation
 
 ### GitHub + Cloudflare Pages Integration
