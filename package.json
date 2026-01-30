@@ -1,0 +1,31 @@
+{
+  "name": "feedback-dashboard",
+  "version": "1.0.0",
+  "description": "A complete Cloudflare D1 feedback dashboard with real-time data visualization and AI assistant",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "d1:create": "wrangler d1 create feedback_150",
+    "d1:migrate": "wrangler d1 migrations apply feedback_150",
+    "d1:console": "wrangler d1 execute feedback_150 --command"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "d1",
+    "dashboard",
+    "feedback",
+    "analytics",
+    "ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
